@@ -44,3 +44,7 @@ A formal parameter of a procedure has a very special role in the procedure defin
 If a variable is not bound, we say that it is free. The set of expressions for which a binding defines a name is called the scope of that name.
 
 
+# Chapter 1.2 Procedures and the Processes They Generate
+
+A procedure is a pattern for the local evolution of a computational process. It specifies how each stage of the process is built upon the previous stage. We would like to be able to make statements about the overall, or global, behavior of a process whose local evolution has been specified by a procedure. This is very difficult to do in general, but we can at least try to describe some typical patterns of process evolution.
+
